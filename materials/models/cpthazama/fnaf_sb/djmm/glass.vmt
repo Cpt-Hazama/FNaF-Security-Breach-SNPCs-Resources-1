@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"models/cpthazama/fnaf_sb/djmm/glass"
+    "$color2" 					"{255 0 191}"
+
+	"$emissiveBlendEnabled" "1"
+    "$emissiveBlendTexture"    "dev/null"
+    "$emissiveBlendBaseTexture"    "models/cpthazama/fnaf_sb/djmm/rgb"
+    "$emissiveBlendFlowTexture"    "dev/null"
+	"$emissiveBlendTint" "[1 1 1]"
+    "$emissiveBlendStrength" "1"
+    "$emissiveBlendScrollVector" "[0 0]"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" "0.1"
+			"texturescrollangle" "90"
+		}
+	}
+
+    "$nodecal"                  "1"
+    "$selfillum"                "1"
+}

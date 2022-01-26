@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"models/cpthazama/fnaf_sb/blob/sb_endo"
+	"$bumpmap" 					"models/cpthazama/fnaf_sb/blob/sb_endo_n"
+    "$phongexponenttexture"     "models/cpthazama/fnaf_sb/blob/sb_endo_exponent"
+    // "$color2"                   "[0 0 0]"
+
+    "$nodecal"                  "1"
+    "$translucent"              "1"
+    // "$blendtintbybasealpha"     "1"
+
+    "$ambientocclusion"         "0.7"
+    "$phong"                    "1"
+    "$phongboost"               "19.986979"
+    "$phongfresnelranges"       "[0.87 0.9 1]"
+    "$phongalbedotint"          "1"
+}

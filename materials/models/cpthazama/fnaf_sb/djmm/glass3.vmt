@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"models/cpthazama/fnaf_sb/djmm/glass_blend"
+    // "$color2" 					"{255 0 191}"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" "0.1"
+			"texturescrollangle" "150"
+		}
+	}
+
+    "$nodecal"                  "1"
+    // "$translucent"              "1"
+    "$additive"              "1"
+}

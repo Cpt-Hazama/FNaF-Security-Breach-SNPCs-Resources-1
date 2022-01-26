@@ -1,0 +1,48 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/cpthazama/fnaf_sb/chica/eyes"
+	"$bumpmap" 	"models/cpthazama/fnaf_sb/chica/eyes_n"
+	"$selfillummask" "models/cpthazama/fnaf_sb/chica/eyes_e"
+	"$phongexponenttexture" "vj_base/exponent"
+	"$phongwarptexture" 	"models/cpthazama/fnaf_sb/phongwarp_metal2"
+
+	"$selfillum" "1"
+	"$selfillumtint" "[3 3 3]"
+	"$nocull" "1"
+	"$nodecal" 						"1"
+
+	// "$emissiveBlendEnabled" 		"1"
+    // "$emissiveBlendTexture"   		"dev/null"
+    // "$emissiveBlendBaseTexture"    	"models/cpthazama/fnaf_sb/chica/eyes_e"
+    // "$emissiveBlendFlowTexture"    	"dev/null"
+    // "$emissiveBlendTint" 			"[1 1 1]"
+    // "$emissiveBlendStrength" 		"1"
+    // "$emissiveBlendScrollVector" 	"[0 0]"
+
+	"$phong" 						"1"
+	"$phongexponent" 				"1"
+	"$phongboost" 					"5"
+	"$phongfresnelranges" 			"[0.75 0.35 1]"
+	"$phongalbedotint" 				"1"
+
+	"$normalmapalphaenvmapmask"		"1"
+
+	"$rimlight"     				"1"
+	"$rimlightexponent"   			"1" 
+	"$rimlightboost"   				"1"
+	"$rimmask"     					"1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.15 0.15 0.15]"
+
+	"Proxies"
+	{
+		"IsNPC"
+		{
+			"scale" "1"
+			"resultvar" "$selfillum"
+		}
+	}
+
+	"$lightwarptexture"				"models/cpthazama/fnaf_sb/warp2"
+}
